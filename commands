@@ -1,2 +1,2 @@
-kubectl create secret docker-registry [secretname] --from-file=.dockerconfigjson=abilitysecret.json
+kubectl create secret docker-registry [secretname] --from-file=.dockerconfigjson=testysecret.json
 
