@@ -1,2 +1,3 @@
-kubectl create secret docker-registry [secretname] --from-file=.dockerconfigjson=testysecret.json
+kubectl create secret docker-registry [secretname] --from-file=.dockerconfigjson=testysecret.json [or]
+kubectl create secret docker-registry example --docker-server=https://example.azurecr.io --docker-username=testuser --docker-password=mypaaws@123 -n namespace
 
